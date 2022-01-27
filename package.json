@@ -1,0 +1,29 @@
+{
+  "name": "testconfigcicdgithub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev" : "nodemon app.js",
+    "test": "jest app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbully/testconfigCICDgithub.git"
+  },
+  "author": "sbully",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sbully/testconfigCICDgithub/issues"
+  },
+  "homepage": "https://github.com/sbully/testconfigCICDgithub#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
